@@ -1,0 +1,39 @@
+FMV TOWNS FMV-181/182/183/184 Packet Driver(Towns OS)
+FMV TOWNS NE2000 Packet Driver(Towns OS)
+FM TOWNS FM50L186/187 Packet Driver(Towns OS)
+
+[fmv18x.com]
+
+usage fmv18x 0x60 10 0x
+
+Operation confirmation:FMV-181/FMV-183 with fmv18xct tool
+PNP mode not supported
+
+
+[ne2000fm.com]
+
+usage ne2000fm 0x60 10 0x240
+
+Operation confirmation:ENW-2400 No Jumper Mode
+
+
+[fm50l185.com]
+
+usage fm50l186 0x60 10 0xc50
+
+Operation confirmation:FM50L186
+
+FM50L186 Setting
+JP1 I/O 1-3:0xc50 2-4:0xc58
+JP2 IRQ 1-2&4-5:11 1-2&5-6:10 2-3&4-5:5 2-3&5-6:4
+JP3 AUI 1-3:External Power 2:4;Internal Power
+
+
+Special Thanks
+Crynwr Software
+http://www.crynwr.com/
+
+IT Junk Box
+http://junk.s21.xrea.com/dosnet.html
+
+2024 mcDomDom
